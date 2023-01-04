@@ -1,6 +1,6 @@
 <center> <h1>AirBnB Clone</h1> </center>
 
-this is a Full-Stack AirBnB Clone program that uses python, sql, sqlalchemy, RESTfulApi, jquery, Html, CSS
+## This is a Full-Stack AirBnB Clone program that uses Python, SQL, SQLalchemy, RESTfulApi, jquery, Html, CSS
 
 ---
 
