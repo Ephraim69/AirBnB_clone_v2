@@ -130,6 +130,7 @@ class HBNBCommand(cmd.Cmd):
             if value.startswith('\"') and value.endswith('\"'):
                 value = value.strip('"')
                 value = value.replace('"', '\\"')
+                value = value.replace('_', ' ')
             elif '.' in value:
                 try:
                     value = float(value)
