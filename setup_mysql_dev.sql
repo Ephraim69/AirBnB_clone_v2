@@ -9,14 +9,14 @@ BY 'hbnb_dev_pwd';
 
 -- granting all privileges to the new user
 GRANT ALL PRIVILEGES
-ON hbnb_dev_db
+ON hbnb_dev_db.*
 TO 'hbnb_dev'@'localhost'
 WITH GRANT OPTION;
 FLUSH PRIVILEGES;
 
 -- granting the SELECT privilege for the user hbnb_dev in the db performance_schema
 GRANT SELECT
-ON performance_schema
+ON performance_schema.*
 TO 'hbnb_dev'@'localhost'
 WITH GRANT OPEN;
 FLUSH PRIVILEGES;
