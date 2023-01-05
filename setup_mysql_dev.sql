@@ -12,7 +12,6 @@ GRANT ALL PRIVILEGES
 ON hbnb_dev_db.*
 TO 'hbnb_dev'@'localhost'
 WITH GRANT OPTION;
-FLUSH PRIVILEGES;
 
 -- granting the SELECT privilege for the user hbnb_dev in the db performance_schema
 GRANT SELECT
