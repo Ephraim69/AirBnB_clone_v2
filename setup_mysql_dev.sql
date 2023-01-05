@@ -14,7 +14,7 @@ TO 'hbnb_dev'@'localhost';
 FLUSH PRIVELEGES;
 
 -- granting the SELECT privilege for the user hbnb_dev in the db performance_schema
-GRANT SELECT PRIVELEGES
+GRANT SELECT
 ON performance_schema.*
 TO 'hbnb_dev'@'localhost';
 FLUSH PRIVELEGES;
